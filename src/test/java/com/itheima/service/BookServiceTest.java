@@ -24,5 +24,9 @@ public class BookServiceTest {
         List<Book> all = bookService.getAll();
         System.out.println(all);
     }
+    @Test
+    public void  test(){
+        System.out.println("1111111");
+    }
 
 }
